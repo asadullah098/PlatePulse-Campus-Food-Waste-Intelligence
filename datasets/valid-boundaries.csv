@@ -1,0 +1,4 @@
+date,venue,meal,served_kg,waste_kg
+2026-10-01,Zero Waste Venue,Breakfast,1,0
+2026-10-02,Full Waste Venue,Dinner,1,1
+2026-10-03,Small Portion Venue,Lunch,0.001,0.001

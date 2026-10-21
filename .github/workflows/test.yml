@@ -1,0 +1,32 @@
+name: Test PlatePulse
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      # The application uses Node built-ins only, so no install step is needed.
+      - name: Check JavaScript syntax
+        run: npm run check
+      - name: Test analytics
+        run: npm test
+      - name: Verify reproducible datasets
+        run: npm run test:datasets
+      - name: Ensure generated fixtures match committed data
+        run: git diff --exit-code -- datasets/

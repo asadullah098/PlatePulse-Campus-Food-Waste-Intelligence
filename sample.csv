@@ -1,0 +1,15 @@
+date,venue,meal,served_kg,waste_kg
+2026-10-01,Central Canteen,Lunch,120,18
+2026-10-01,Hostel Kitchen,Dinner,150,36
+2026-10-02,Central Canteen,Lunch,130,16
+2026-10-02,Hostel Kitchen,Dinner,145,30
+2026-10-03,Central Canteen,Lunch,125,15
+2026-10-03,Hostel Kitchen,Dinner,160,32
+2026-10-04,Central Canteen,Lunch,140,19
+2026-10-04,Hostel Kitchen,Dinner,155,29
+2026-10-05,Central Canteen,Lunch,135,16
+2026-10-05,Hostel Kitchen,Dinner,148,27
+2026-10-06,Central Canteen,Lunch,128,14
+2026-10-06,Hostel Kitchen,Dinner,152,28
+2026-10-07,Central Canteen,Lunch,132,17
+2026-10-07,Hostel Kitchen,Dinner,158,65

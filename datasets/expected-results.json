@@ -1,0 +1,46 @@
+{
+  "source": "Synthetic test data; not real campus observations",
+  "rows": 36000,
+  "dateRange": "2026-10-01 — 2026-10-30",
+  "servedKg": 17724.223000000005,
+  "wasteKg": 3091.9579999999874,
+  "wasteRatePercent": 17.444815493463302,
+  "nextDayForecastKg": 603.3659285714285,
+  "wasteRanking": [
+    {
+      "venue": "Hostel Kitchen",
+      "wasteKg": 1098.9070000000024,
+      "wasteRatePercent": 26.221703099386
+    },
+    {
+      "venue": "Central Canteen",
+      "wasteKg": 779.9260000000022,
+      "wasteRatePercent": 19.47303465355561
+    },
+    {
+      "venue": "North Commons",
+      "wasteKg": 633.4660000000027,
+      "wasteRatePercent": 16.820332478950927
+    },
+    {
+      "venue": "Library Café",
+      "wasteKg": 290.064999999998,
+      "wasteRatePercent": 11.313146362429322
+    },
+    {
+      "venue": "The Green Bowl",
+      "wasteKg": 289.59399999999715,
+      "wasteRatePercent": 9.05491437831995
+    }
+  ],
+  "anomalyDates": [
+    "2026-10-18"
+  ],
+  "hostelDinnerAnomalyDates": [
+    "2026-10-18",
+    "2026-10-26"
+  ],
+  "savingsAt20PercentKg": 618.3915999999975,
+  "first20DaysWasteRate": 19.477344347489385,
+  "last10DaysWasteRate": 13.50898079387777
+}
